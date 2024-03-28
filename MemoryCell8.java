@@ -23,7 +23,7 @@ public class MemoryCell {
         return minIndex;
     }
     public void printNumbers() {
-        System.out.println("Числа в ячейке памяти:");
+        System.out.println("Числа в ячейке :");
         for (int i = 0; i < numElements; i++) {
             System.out.println(numbers[i]);
         }
@@ -32,7 +32,7 @@ public class MemoryCell {
         Scanner scanner = new Scanner(System.in);
         MemoryCell memoryCell = new MemoryCell();
         while (true) {
-            System.out.print("Введите число (или -1 для выхода): ");
+            System.out.print("Введите число или -1 если нужнр выйти : ");
             int number = scanner.nextInt();
             if (number == -1) {
                 break;
